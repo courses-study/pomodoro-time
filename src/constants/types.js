@@ -1,18 +1,18 @@
 export const TYPES = [
   {
-    name: "FOCUS",
+    name: "POMODORO",
     time: 25 * 60,
     color: "#fc6",
     timerColor: "#fd9"
   }, 
   {
-    name: "SHORT",
+    name: "SHORT BREAK",
     time: 5 * 60,
     color: "#9cf",
     timerColor: "#bdf"
   }, 
   {
-    name: "BREAK",
+    name: "LONG BREAK",
     time: 10 * 60,
     color: "#fbf",
     timerColor: "#fdf"

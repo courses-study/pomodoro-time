@@ -5,7 +5,7 @@ export const TIMER_STYLES = StyleSheet.create({
     width: "80%",
     textAlign: "center",
     fontSize: 80,
-    fontWeight: "500",
+    fontWeight: "600",
     borderRadius: 10,
     padding: 50,
     margin: 10,
@@ -14,7 +14,8 @@ export const TIMER_STYLES = StyleSheet.create({
   btnTimer: {
     width: "80%",
     borderWidth: 2,
-    borderColor: "#555",
+    backgroundColor: "#333",
+    borderColor: "#333",
     borderRadius: 10,
     padding: 10,
     marginTop: 5
@@ -23,5 +24,6 @@ export const TIMER_STYLES = StyleSheet.create({
   btnTimerText: {
     fontSize: 27,
     textAlign: "center",
+    color: "#fff",
   }
 })

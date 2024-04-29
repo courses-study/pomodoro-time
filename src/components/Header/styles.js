@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native'
 
 export const TYPES_STYLES = StyleSheet.create({
   typesContainer: {
-    width: "80%",
+    width: "90%",
     display: "flex",
     justifyContent: "center",
     margin: 10,

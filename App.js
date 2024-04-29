@@ -34,6 +34,8 @@ export default function App() {
       />
       <Timer 
         time={timer} 
+        timerSeconds={timerSeconds}
+        setTimerSeconds={setTimerSeconds}
         type={type} 
       />
       <StatusBar style="dark" />
